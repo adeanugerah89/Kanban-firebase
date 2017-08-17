@@ -1,0 +1,23 @@
+[debug] [2017-08-17T20:45:54.773Z] ----------------------------------------------------------------------
+[debug] [2017-08-17T20:45:54.777Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --project kanban-project-6cae8
+[debug] [2017-08-17T20:45:54.777Z] CLI Version:   3.9.2
+[debug] [2017-08-17T20:45:54.777Z] Platform:      linux
+[debug] [2017-08-17T20:45:54.777Z] Node Version:  v7.8.0
+[debug] [2017-08-17T20:45:54.778Z] Time:          Fri Aug 18 2017 03:45:54 GMT+0700 (WIB)
+[debug] [2017-08-17T20:45:54.778Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-17T20:45:54.794Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-17T20:45:54.794Z] > authorizing via signed-in user
+[debug] [2017-08-17T20:45:54.798Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/kanban-project-6cae8  
+ Fri Aug 18 2017 03:45:54 GMT+0700 (WIB)
+[debug] [2017-08-17T20:45:56.219Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-17T20:45:56.221Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/kanban-project-6cae8/tokens  
+ Fri Aug 18 2017 03:45:56 GMT+0700 (WIB)
+[debug] [2017-08-17T20:45:57.327Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'kanban-project-6cae8'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing . directory for upload...
+[debug] [2017-08-17T20:46:10.552Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/kanban-project-6cae8/uploads/-KrlwWCLKjF7KYNrFed3?fileCount=15347&message=  
+ Fri Aug 18 2017 03:46:10 GMT+0700 (WIB)
